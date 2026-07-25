@@ -1,0 +1,20 @@
+---
+- name: Deploying website
+  hosts: nodes
+  become: yes
+
+  tasks:
+    - name: Install Nginx Server
+      apt:
+        name: nginx
+        state: present
+
+    - name: Copy File
+      copy:
+        src: index.html
+        dest: /var/www/html/index.html
+
+    - name: Restart Nginx
+      service:
+        name: nginx
+        state: restarted
