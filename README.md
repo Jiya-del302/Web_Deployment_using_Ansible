@@ -113,8 +113,6 @@ http://<EC2-Public-IP>
 ---
 
 ## Author
-
-Jiya Pardeshi
-**Fatebahadur Nandwanshi**
+**Jiya Pardeshi**
 
 Cloud Application Developer
