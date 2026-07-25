@@ -44,7 +44,7 @@ Ansible-Nginx-Deployment/
 │
 ├── README.md
 ├── inventory
-├── deploy.yml
+├── server.yaml
 ├── index.html
 ```
 
