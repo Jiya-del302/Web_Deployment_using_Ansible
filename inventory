@@ -1,0 +1,9 @@
+[nodes]
+
+ansible_node1 ansible_host=43.205.206.245
+ansible_node2 ansible_host=13.201.10.154
+ansible_node1 ansible_user=ubuntu
+ansible_node2 ansible_user=ubuntu
+
+[all:vars]
+ansible_ssh_private_key_file=/home/ubuntu/master_key
